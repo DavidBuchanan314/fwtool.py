@@ -222,6 +222,7 @@ _crypters = OrderedDict([
  ('CXD4132',      lambda: AesCrypter(constants.key_cxd4132)),
  ('CXD90014',     lambda: DoubleAesCrypter(constants.key_aes, constants.key_cxd90014)),
  ('CXD90045',     lambda: AesCbcCrypter(constants.key_aes, constants.key_cxd90045)),
+ ('CXD90057',     lambda: AesCbcCrypter(constants.key_aes, constants.key_cxd90057)),
 ])
 
 
